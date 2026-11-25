@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+.env/
+
+# Dataset - only track the small sample, not the full 150MB CSV
+data/*
+!data/dataset/
+data/dataset/*
+!data/dataset/creditcard_sample.csv
+demo/dataset/
+*.tar.gz
+*.7z
+
+# Mac
+.DS_Store
+
+# Results
+results/
+*.pkl
+models/*.pkl
+*.db
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env*.local
